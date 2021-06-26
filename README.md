@@ -6,6 +6,8 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 2. Arduino Board: UNO, NANO, MEGA, etc. https://www.arduino.cc/en/Main/Products
 3. HC-05 Bluetooth Module https://www.siarperu.com/store/#view=00011&busq=bluetooth
 4. Some Protoboards cabling, female-male, male-male or female-female https://naylampmechatronics.com/accesorios-y-prototipado/26-cable-para-protoboard.html
+![imagen](https://user-images.githubusercontent.com/1075807/123525003-8b44a380-d693-11eb-90d0-3e86edaa419f.png)
+
 
 # Needed Software
 1. Embarcadero C++ Builder 10.3 Community Edition https://www.embarcadero.com/products/cbuilder/starter or lastest https://embarcadero.com/products/cbuilder
