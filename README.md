@@ -14,15 +14,15 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123524911-da3e0900-d692-11eb-8301-566e07b4aca2.png)
 
-3. Arduino IDE 1.8.15 https://www.arduino.cc/en/software
+2. Arduino IDE 1.8.15 https://www.arduino.cc/en/software
 ![imagen](https://user-images.githubusercontent.com/1075807/123525458-71f12680-d696-11eb-87fa-3764e6561bc7.png)
 
 
-5. Any Serial Terminal (for PC Windows or Mac where the C++ Builder is installed)
+3. Any Serial Terminal (for PC Windows or Mac where the C++ Builder is installed)
 ![imagen](https://user-images.githubusercontent.com/1075807/123525397-f1cac100-d695-11eb-8ec3-e5776882f7fc.png)
 
 
-6. In my particular case, I sed the scrcpy for see my project (Irrigation 3021) in its Android versión. https://github.com/Genymobile/scrcpy
+4. In my particular case, I sed the scrcpy for see my project (Irrigation 3021) in its Android versión. https://github.com/Genymobile/scrcpy
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123525105-2473ba00-d694-11eb-94cc-f0e34bdb33e6.png)
 
