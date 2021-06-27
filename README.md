@@ -23,7 +23,7 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123559024-438b4e00-d75f-11eb-8493-d7573617cdf3.png)
 
-6. Sensors for Humidity moisture, water level, and rain intensitivity:
+6. Sensors for Humidity moisture, rain intensitivity, and water level:
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123560329-265a7d80-d767-11eb-9698-25c5bc9d9758.png)  ![imagen](https://user-images.githubusercontent.com/1075807/123560371-543fc200-d767-11eb-845c-b915b612602a.png) ![imagen](https://user-images.githubusercontent.com/1075807/123560462-e21bad00-d767-11eb-8c31-cb67b74aa5d3.png)
 
