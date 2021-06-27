@@ -21,8 +21,7 @@ How Bluetooth Technology can improve the use of water resources worldwide.
  
 5. 6. Some Protoboards cabling, female-male, male-male or female-female https://naylampmechatronics.com/accesorios-y-prototipado/26-cable-para-protoboard.html
 
-![imagen](https://user-images.githubusercontent.com/1075807/123554977-7118cd00-d748-11eb-8225-21b76512ed02.png)
-
+![imagen](https://user-images.githubusercontent.com/1075807/123559024-438b4e00-d75f-11eb-8493-d7573617cdf3.png)
 
 # Needed Software
 1. Embarcadero C++ Builder 10.3 Community Edition https://www.embarcadero.com/products/cbuilder/starter or lastest https://embarcadero.com/products/cbuilder
