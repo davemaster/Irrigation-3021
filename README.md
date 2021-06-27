@@ -39,8 +39,15 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123525397-f1cac100-d695-11eb-8ec3-e5776882f7fc.png)
 
+4. Proteus 8.6 with Arduino libraries for simulate Arduino valve control and the sensors attached (humidity, water leve, and rain) lectures and response of the valve
+   control system (circuit and firmware) to commands from Irrigation 3021 app programmed in C++ Builder. 
+   
+   ![imagen](https://user-images.githubusercontent.com/1075807/123555272-6eb77280-d74a-11eb-8b04-53b1e4efe960.png)
 
-4. In my particular case, I sed the scrcpy for see my project (Irrigation 3021) in its Android versión. https://github.com/Genymobile/scrcpy
+   ![imagen](https://user-images.githubusercontent.com/1075807/123555394-1b91ef80-d74b-11eb-83d5-8d26bdd6a079.png)
+
+
+5. In my particular case, I sed the scrcpy for see my project (Irrigation 3021) in its Android versión. https://github.com/Genymobile/scrcpy
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123525105-2473ba00-d694-11eb-94cc-f0e34bdb33e6.png)
 
