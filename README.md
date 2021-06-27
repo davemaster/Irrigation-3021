@@ -9,7 +9,7 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 
 2. Arduino Board: UNO, NANO, MEGA, etc. https://www.arduino.cc/en/Main/Products
 
-![imagen](https://user-images.githubusercontent.com/1075807/123554933-2a2ad780-d748-11eb-8949-0ff4d055d75e.png)
+![imagen](https://user-images.githubusercontent.com/1075807/123558850-1ab68900-d75e-11eb-842d-da82d6587bb2.png)
 
 3. HC-05 Bluetooth Module https://www.siarperu.com/store/#view=00011&busq=hc-05
 
