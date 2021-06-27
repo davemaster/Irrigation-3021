@@ -4,15 +4,17 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 # Needed Parts
 1. Mobile Phone: Iphone, Android or laptop/pc Bluetooth capable
 
+![imagen](https://user-images.githubusercontent.com/1075807/123554941-37e05d00-d748-11eb-9f1d-36520b245556.png)
 
 
 2. Arduino Board: UNO, NANO, MEGA, etc. https://www.arduino.cc/en/Main/Products
 
-https://www.siarperu.com/store/#view=00116&busq=UNO
+![imagen](https://user-images.githubusercontent.com/1075807/123554933-2a2ad780-d748-11eb-8949-0ff4d055d75e.png)
 
-3. HC-05 Bluetooth Module https://www.siarperu.com/store/#view=00011&busq=bluetooth
+3. HC-05 Bluetooth Module https://www.siarperu.com/store/#view=00011&busq=hc-05
 
-https://www.siarperu.com/store/#view=00011&busq=hc-05
+![imagen](https://user-images.githubusercontent.com/1075807/123554890-f0f26780-d747-11eb-98c1-e9615715a779.png)
+
 
 4. A 12V solenoid Valve https://www.sparkfun.com/products/10456
 
