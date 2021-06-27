@@ -18,7 +18,7 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 
 4. A 12V solenoid Valve https://www.sparkfun.com/products/10456
 
-![imagen](https://user-images.githubusercontent.com/1075807/123558779-aed42080-d75d-11eb-9499-174036842006.png)
+![imagen](https://user-images.githubusercontent.com/1075807/123558813-e216af80-d75d-11eb-8267-b26cd7df049b.png)
 
  
 5. 6. Some Protoboards cabling, female-male, male-male or female-female https://naylampmechatronics.com/accesorios-y-prototipado/26-cable-para-protoboard.html
