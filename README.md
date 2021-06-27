@@ -13,13 +13,11 @@ How Bluetooth Technology can improve the use of water resources worldwide.
 
 3. HC-05 Bluetooth Module https://www.siarperu.com/store/#view=00011&busq=hc-05
 
-![imagen](https://user-images.githubusercontent.com/1075807/123554890-f0f26780-d747-11eb-98c1-e9615715a779.png)
-
+![imagen](https://user-images.githubusercontent.com/1075807/123558943-ceb81400-d75e-11eb-96f8-b45b90d5b03f.png)
 
 4. A 12V solenoid Valve https://www.sparkfun.com/products/10456
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123558813-e216af80-d75d-11eb-8267-b26cd7df049b.png)
-
  
 5. 6. Some Protoboards cabling, female-male, male-male or female-female https://naylampmechatronics.com/accesorios-y-prototipado/26-cable-para-protoboard.html
 
