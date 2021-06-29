@@ -1,8 +1,13 @@
 # Irrigation-3021
-How Bluetooth Technology can improve the use of water resources worldwide. 
+How Bluetooth Technology can improve the use of water resources worldwide. Programming using [C++ Builder 10.3 Community Edition](https://www.embarcadero.com/es/products/cbuilder/starter) was surprisly very faster than the turtle of Android Studio and its eternal indexing-nightmares; So, its time to move forward using this IDE, in this project, using the multi-device features. 
+
+The goal, more control over the water use in irrigation issues, first in my mom's garden, then in the city parks, then, worldwide. Thanks to the [Building Good with C++Builder Contest](https://blogs.embarcadero.com/building-good-with-cbuilder-contest/) for giving this oportunity.
+
+# Project Resume
+The system is going to use a bluetooth capable device to control a valve to irrigate a plant. The control-device can be a laptop/pc or a smartphone (Android or iOS). These devices control through bluetooth wireless link an Arduino UNO board connected to a HC-05 bluetooth module; so this last can open/close the solenoid valve by a relay; according the following modes: 1. Based on sensors (humidity, water tank level, and rain intensitivity) the Arduino will decide when to open/close the valve to properly water the plant. The sensors values will be compared with setpoints to make decisions. Mode 2. Test mode, we can open/close valve no matter the sensors values. Mode 3, using irrigation schedules, ie, time defined periods when the valve will be open.
 
 # Needed Parts
-1. Mobile Phone: Iphone, Android or laptop/pc Bluetooth capable
+1. Mobile Phone: Iphone, Android or laptop/pc Bluetooth capable. C++ Builder 10.3 can program them all with ONE project at the same time; pretty GOOD!!!.
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123554941-37e05d00-d748-11eb-9f1d-36520b245556.png)
 
