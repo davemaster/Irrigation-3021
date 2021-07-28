@@ -1,0 +1,114 @@
+inherited TabbedForm_Moto360: TTabbedForm_Moto360
+  ClientHeight = 218
+  ClientWidth = 240
+  DesignerMasterStyle = 3
+  inherited HeaderToolBar: TToolBar
+    Size.Width = 240.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 240.000000000000000000
+    end
+  end
+  inherited LayoutMain: TLayout
+    Size.Width = 252.631591796875000000
+    Size.Height = 178.947372436523400000
+    inherited TabControlMain: TTabControl
+      Size.Width = 252.631591796875000000
+      Size.Height = 178.947372436523400000
+      Sizes = (
+        252.631607055664s
+        129.947372436523s
+        252.631607055664s
+        129.947372436523s
+        252.631607055664s
+        129.947372436523s
+        252.631607055664s
+        129.947372436523s)
+      inherited TabItemSetup: TTabItem
+        Size.Width = 63.000000000000000000
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited GroupBoxConexion: TGroupBox
+          inherited ButtonConnect: TButton
+            TextSettings.FontColorForState.Focused = claSpringgreen
+          end
+          inherited ButtonGetPaired: TButton
+            TextSettings.FontColorForState.Focused = claDarkviolet
+          end
+          inherited ButtonGetServices: TButton
+            TextSettings.FontColorForState.Focused = claTurquoise
+          end
+        end
+        inherited GroupBoxValve: TGroupBox
+          inherited LayoutValveHumidity: TLayout
+            inherited LabelValveHumidity: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+          inherited LayoutSetupLevel: TLayout
+            inherited LabelValveLevel: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+          inherited LayoutSetupRain: TLayout
+            inherited LabelValveRain: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+          inherited GroupBoxSetupRain: TGroupBox
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited GroupBoxSetupLevel: TGroupBox
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited GroupBoxSetupHumidity: TGroupBox
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+      inherited TabItemTest: TTabItem
+        Size.Width = 63.000000000000000000
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited Memo1: TMemo
+          Size.Width = 252.631607055664100000
+          Size.Height = 0.000000000000000000
+          Viewport.Width = 252.600000000000000000
+          Viewport.Height = 0.000000000000000000
+        end
+        inherited LayoutTestValve: TLayout
+          Size.Width = 252.631607055664100000
+          inherited GroupBoxTestValve: TGroupBox
+            Size.Width = 252.631607055664100000
+            inherited SwitchTestValve: TSwitch
+              Anchors = [akTop]
+            end
+          end
+          inherited LabelDebug: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited TabItemTareas: TTabItem
+        Size.Width = 63.000000000000000000
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited Label1: TLabel
+          Size.Width = 252.631607055664100000
+          Size.Height = 129.947372436523400000
+        end
+      end
+      inherited TabItemAbout: TTabItem
+        Size.Width = 63.000000000000000000
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited ScaledLayoutAbout: TScaledLayout
+          Size.Width = 252.631607055664100000
+          Size.Height = 129.947372436523400000
+          inherited ImageControlDaveWare: TImageControl
+            Size.Width = 252.631607055664100000
+          end
+        end
+      end
+    end
+  end
+end

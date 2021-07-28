@@ -1,0 +1,131 @@
+inherited TabbedForm_iPhone47in: TTabbedForm_iPhone47in
+  ClientHeight = 647
+  DesignerMasterStyle = 3
+  inherited HeaderToolBar: TToolBar
+    Size.Height = 44.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited LayoutMain: TLayout
+    Size.Height = 634.736877441406300000
+    inherited TabControlMain: TTabControl
+      Size.Height = 634.736877441406300000
+      Sizes = (
+        394.736846923828s
+        585.736877441406s
+        394.736846923828s
+        585.736877441406s
+        394.736846923828s
+        585.736877441406s
+        394.736846923828s
+        585.736877441406s)
+      inherited TabItemSetup: TTabItem
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited GroupBoxConexion: TGroupBox
+          inherited ButtonConnect: TButton
+            TextSettings.FontColorForState.Focused = claSpringgreen
+          end
+          inherited ComboBoxDevices: TComboBox
+            Size.Height = 30.000000000000000000
+          end
+          inherited ComboBoxService: TComboBox
+            Size.Height = 30.000000000000000000
+          end
+          inherited ButtonGetPaired: TButton
+            TextSettings.FontColorForState.Focused = claDarkviolet
+          end
+          inherited ButtonGetServices: TButton
+            TextSettings.FontColorForState.Focused = claTurquoise
+          end
+        end
+        inherited GroupBoxValve: TGroupBox
+          inherited LayoutValveTime: TLayout
+            inherited TimeEditValve: TTimeEdit
+              Size.Height = 30.000000000000000000
+            end
+          end
+          inherited LayoutValveHumidity: TLayout
+            inherited LabelValveHumidity: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited NumberBoxSetHumidity: TNumberBox
+              Size.Height = 30.000000000000000000
+            end
+          end
+          inherited LayoutSetupLevel: TLayout
+            inherited LabelValveLevel: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited NumberBoxSetLevel: TNumberBox
+              Size.Height = 30.000000000000000000
+            end
+          end
+          inherited LayoutSetupRain: TLayout
+            inherited LabelValveRain: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+            inherited NumberBoxSetRain: TNumberBox
+              Size.Height = 30.000000000000000000
+            end
+          end
+          inherited GroupBoxSetupRain: TGroupBox
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            inherited NumberBoxSetupRainData: TNumberBox
+              Size.Height = 30.000000000000000000
+            end
+          end
+          inherited GroupBoxSetupLevel: TGroupBox
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            inherited NumberBoxSetupLevelData: TNumberBox
+              Size.Height = 30.000000000000000000
+            end
+          end
+          inherited GroupBoxSetupHumidity: TGroupBox
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            inherited NumberBoxSetupHumidityData: TNumberBox
+              Size.Height = 30.000000000000000000
+            end
+          end
+        end
+      end
+      inherited TabItemTest: TTabItem
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited Memo1: TMemo
+          Size.Height = 384.736877441406300000
+          Viewport.Width = 394.700000000000000000
+          Viewport.Height = 384.700000000000000000
+        end
+        inherited LayoutTestValve: TLayout
+          inherited GroupBoxTestValve: TGroupBox
+            inherited SwitchTestValve: TSwitch
+              Anchors = [akTop]
+              Size.Width = 55.000000000000000000
+              Size.Height = 35.000000000000000000
+            end
+          end
+          inherited LabelDebug: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited TabItemTareas: TTabItem
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited Label1: TLabel
+          Size.Height = 585.736877441406300000
+        end
+      end
+      inherited TabItemAbout: TTabItem
+        Size.Width = 100.000000000000000000
+        ExplicitSize.cx = 50.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited ScaledLayoutAbout: TScaledLayout
+          Size.Height = 585.736877441406300000
+        end
+      end
+    end
+  end
+end
