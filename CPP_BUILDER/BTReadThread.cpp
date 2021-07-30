@@ -37,6 +37,10 @@ void __fastcall TBluetoothReadTH::Execute()
 {
 	//---- Place thread code here ----
 
+	AnsiString AllReceivedData;
+
+	char *LastChar;
+
 	while (!Terminated)
 	{
 		if(cmd==1)
@@ -54,28 +58,47 @@ void __fastcall TBluetoothReadTH::Execute()
 
 		else if(cmd==2)
 		{
+			dataFromArduino=Socket->ReceiveData();
 
-		//		dataFromArduino=Socket->ReadData(15000);             //15000
-		dataFromArduino=Socket->ReceiveData(15000);             //15000
-
-		if(dataFromArduino.Length>0)
-		{
-			StrReceived = TEncoding::UTF8->GetString(dataFromArduino);
-
-		msg=StrReceived;
-
-			Synchronize(TabbedForm->WriteMemo);
-
-			if(msg.Length()>3)
+			if(dataFromArduino.Length>0)
 			{
+				StrReceived = TEncoding::ASCII->GetString(dataFromArduino);
 
-				sensors=StrReceived;
-				Synchronize(TabbedForm->UpdateValueSensors);
+				/*************************************/
+				AllReceivedData+=StrReceived;
 
+				msg=AllReceivedData;
+				Synchronize(TabbedForm->WriteMemo);
+
+				if(AllReceivedData.Length()>12)
+				{
+					sensors=AllReceivedData;
+					Synchronize(TabbedForm->UpdateValueSensors);
+
+					AllReceivedData="";
+					Sleep(100);
+				}
+
+				#ifndef __ANDROID__
+				else
+					AllReceivedData="";
+				#endif
+
+				/*****************************************/
+
+				/*msg=StrReceived;
+				Synchronize(TabbedForm->WriteMemo);
+
+				if(msg.Length()>3)
+				{
+
+					sensors=StrReceived;
+					Synchronize(TabbedForm->UpdateValueSensors);
+
+				} */
 			}
-		}
 
-		Sleep(100);
+			Sleep(100);
 		}
 	}
 
