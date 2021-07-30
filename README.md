@@ -64,3 +64,58 @@ The system is going to use a bluetooth capable device to control a valve to irri
 
 ![imagen](https://user-images.githubusercontent.com/1075807/123525220-aa900080-d694-11eb-8241-3cd5df7e1c26.png)
 
+SOURCE CODE UPDATED
+
+In file BTReadThread.cpp, the following changes has been made:
+
+.................................
+
+  else if(cmd==2)
+		{
+			dataFromArduino=Socket->ReceiveData();
+
+			if(dataFromArduino.Length>0)
+			{
+				StrReceived = TEncoding::ASCII->GetString(dataFromArduino);
+
+				/*************************************/
+				AllReceivedData+=StrReceived;
+
+				msg=AllReceivedData;
+				Synchronize(TabbedForm->WriteMemo);
+
+				if(AllReceivedData.Length()>12)
+				{
+					sensors=AllReceivedData;
+					Synchronize(TabbedForm->UpdateValueSensors);
+
+					AllReceivedData="";
+					Sleep(100);
+				}
+
+				#ifndef __ANDROID__
+				else
+					AllReceivedData="";
+				#endif
+
+				/*****************************************/
+
+				/*msg=StrReceived;
+				Synchronize(TabbedForm->WriteMemo);
+
+				if(msg.Length()>3)
+				{
+
+					sensors=StrReceived;
+					Synchronize(TabbedForm->UpdateValueSensors);
+
+				} */
+			}
+
+			Sleep(100);
+		}
+
+..................................
+
+![imagen](https://user-images.githubusercontent.com/1075807/127631900-2e92a8fd-23ad-4516-b5bd-4063e20b5038.png)
+
