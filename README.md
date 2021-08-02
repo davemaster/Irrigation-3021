@@ -43,7 +43,7 @@ The system is going to use a bluetooth capable device to control a valve to irri
 
 2. Arduino IDE 1.8.15 https://www.arduino.cc/en/software
 
-![imagen](https://user-images.githubusercontent.com/1075807/123525458-71f12680-d696-11eb-87fa-3764e6561bc7.png)
+![imagen](https://user-images.githubusercontent.com/1075807/127802116-39bd9d22-906e-49da-afe5-6a5b39a97666.png)
 
 
 3. Any Serial Terminal (for PC Windows or Mac where the C++ Builder is installed)
