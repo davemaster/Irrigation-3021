@@ -53,7 +53,8 @@ The system is going to use a bluetooth capable device to control a valve to irri
 4. Proteus 8.6 with Arduino libraries for simulate Arduino valve control and the sensors attached (humidity, water leve, and rain) lectures and response of the valve
    control system (circuit and firmware) to commands from Irrigation 3021 app programmed in C++ Builder. 
    
-   ![imagen](https://user-images.githubusercontent.com/1075807/123555272-6eb77280-d74a-11eb-8b04-53b1e4efe960.png)
+   ![imagen](https://user-images.githubusercontent.com/1075807/127801912-9e7191ca-199f-403c-8354-2ab2d7e00fdf.png)
+
 
    ![imagen](https://user-images.githubusercontent.com/1075807/123555394-1b91ef80-d74b-11eb-83d5-8d26bdd6a079.png)
 
